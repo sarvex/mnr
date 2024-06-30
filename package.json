@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev:server": "tsnd src/server/server.ts",
+    "dev:bundler": "webpack -w --mode=development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,6 +16,20 @@
   "author": "Sarvex Jatasra",
   "license": "MIT",
   "dependencies": {
-    "typescript": "^5.5.2"
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.2",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "eslint": "^9.6.0",
+    "prettier": "^3.3.2",
+    "ts-node-dev": "^2.0.0"
   }
 }

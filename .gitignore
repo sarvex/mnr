@@ -1,3 +1,7 @@
+node_modules
+.vscode
+/dist/main.js
+
 # Logs
 logs
 *.log
@@ -328,7 +332,8 @@ fabric.properties
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
